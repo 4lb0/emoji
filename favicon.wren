@@ -1,22 +1,3 @@
-class Emoji {
-  static bicycle { "🚲" }
-  static heart { "❤️" }
-  static star { "⭐️" }
-  static fire { "🔥" }
-  static rocket { "🚀" }
-  static sparkles { "✨" }
-  static zap { "⚡️" }
-  static check { "✅" }
-  static cross { "❌" }
-  static tada { "🎉" }
-  static emergency { "🚨" }
-  static joy { "😂" }
-  static wink { "😉" }
-  static foldedHands { "🙏" }
-  static thumbsUp { "👍" }
-  static thumbsDown { "👎" }
-}
-
 class Favicon {
   static html(emoji) { '<link href="data:image/svg+xml,%( svg(emoji) )" rel="icon">' }
   static svg(emoji) { "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><text y='14' x='0'>%( emoji )</text></svg>" }

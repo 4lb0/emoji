@@ -5,7 +5,8 @@ Sample library for [Bialet](https://bialet.dev)
 ## Usage
 
 ```wren
-import <4lb0/emoji> for Emoji, Favicon
+import "gh:4lb0/emoji/emoji" for Emoji
+import "gh:4lb0/emoji/favicon" for Favicon
 import "bialet" for Response
 
 System.print(Emoji.heart)
